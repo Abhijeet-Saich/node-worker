@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 app.get("/sum", (req, res) => {
 
     console.log("Heavy request started!");
-
+    
     const worker = new Worker("./worker.js", {
         workerData: {
             limit: 20_000_000_000
