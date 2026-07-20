@@ -10,7 +10,6 @@ import { parentPort, workerData } from "worker_threads";
 
 // parentPort.postMessage(sum);
 
-// you see me doing wokrk work wor work work
 
 
 // ----------------------------
